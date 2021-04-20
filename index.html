@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boots trap</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Logo</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">О нас</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                      Всплывющее окно
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Искать</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="mr-5 pt-5 pb-5 bg-light container-fluid">
+            <div class="">
+                <h1>Привет Мир!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus itaque culpa quae ex voluptas, doloribus molestiae harum repudiandae ipsam labore soluta veritatis, nisi recusandae voluptatibus quis distinctio sunt et unde? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, quia! Lorem.</p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis eligendi reprehenderit odit cupiditate nam iure quod commodi magnam possimus voluptatibus ea, quidem porro earum eum pariatur voluptatem inventore quaerat mollitia.</p>
+            </div>
+            <div class="bg-premium" style="text-align: center;">
+                <button class="btn btn-outline-premium" style="background-color: blue; color: white;" type="submit">Узнать Больше!</button>
+            </div>
+        </div>
+
+        <div class="container-fluid d-flex justify-content-around mt-3 mb-5 row">
+                <div class="card col-xl-3 col-md-3 col-sm-12" style="text-align: center;">
+                    <img src="https://picfiles.alphacoders.com/267/267371.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Open carousel!
+                      </button>
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="https://wallpapertag.com/wallpaper/full/9/b/e/423347-sunset-wallpaper-hd-2560x1600-for-htc.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://picfiles.alphacoders.com/286/286580.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="https://cdn.wallpapersafari.com/58/55/R0CoqG.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </a>
+                                  </div>
+                            </div>
+                            <div class="modal-footer">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              <div class="card col-xl-3 col-md-3 col-sm-12" style="text-align: center;">
+                <img src="https://cdn.fishki.net/upload/post/2017/08/29/2367311/tigry-albinosy-polyana-1920x1200.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Open carousel!
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="https://wallpapertag.com/wallpaper/full/9/b/e/423347-sunset-wallpaper-hd-2560x1600-for-htc.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="https://picfiles.alphacoders.com/286/286580.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="https://cdn.wallpapersafari.com/58/55/R0CoqG.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </a>
+                              </div>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-xl-3 col-md-3 col-sm-12" style="text-align: center;">
+                <img src="https://bugaga.ru/uploads/posts/2013-01/1357837612_nochnye-ogni-17.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Open carousel!
+                  </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="https://wallpapertag.com/wallpaper/full/9/b/e/423347-sunset-wallpaper-hd-2560x1600-for-htc.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="https://picfiles.alphacoders.com/286/286580.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="https://cdn.wallpapersafari.com/58/55/R0CoqG.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </a>
+                              </div>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+            </div>
+        </div>
+
+        <nav class="mb-5 navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+            <button type="button" class="btn btn-success">Добавить</button>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-danger" type="submit">Искать</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+        <div class="mb-3 d-flex justify-content-around  row  container-fluid">
+            <div class="card mb-3 col-xl-3 p-0 text-center ">
+                <div class="card-header bg-dark" style="color: white;">Title</div>
+                <div class="card-body text-success" style="text-align: left;">
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam at voluptatibus reprehenderit consequuntur! Earum deserunt optio, voluptatibus quisquam in vitae porro soluta quia ullam eum est rerum necessitatibus quod.</p>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-around ">
+                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-primary">More</button>
+                    <button type="button" class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>
+
+            <div class="card mb-3 col-xl-3 p-0 text-center ">
+                <div class="card-header bg-dark" style="color: white;">Title</div>
+                <div class="card-body text-success" style="text-align: left;">
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam at voluptatibus reprehenderit consequuntur! Earum deserunt optio, voluptatibus quisquam in vitae porro soluta quia ullam eum est rerum necessitatibus quod.</p>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-around ">
+                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-primary">More</button>
+                    <button type="button" class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>
+            <div class="card mb-3 col-xl-3 p-0 text-center ">
+                <div class="card-header bg-dark" style="color: white;">Title</div>
+                <div class="card-body text-success" style="text-align: left;">
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam at voluptatibus reprehenderit consequuntur! Earum deserunt optio, voluptatibus quisquam in vitae porro soluta quia ullam eum est rerum necessitatibus quod.</p>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-around ">
+                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-primary">More</button>
+                    <button type="button" class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>  
+        </div>
+
+        <div class="mb-3 d-flex justify-content-around  row  container-fluid">
+            <div class="card mb-3 col-xl-3 p-0 text-center ">
+                <div class="card-header bg-dark" style="color: white;">Title</div>
+                <div class="card-body text-success" style="text-align: left;">
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam at voluptatibus reprehenderit consequuntur! Earum deserunt optio, voluptatibus quisquam in vitae porro soluta quia ullam eum est rerum necessitatibus quod.</p>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-around ">
+                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-primary">More</button>
+                    <button type="button" class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>
+
+            <div class="card mb-3 col-xl-3 p-0 text-center ">
+                <div class="card-header bg-dark" style="color: white;">Title</div>
+                <div class="card-body text-success" style="text-align: left;">
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam at voluptatibus reprehenderit consequuntur! Earum deserunt optio, voluptatibus quisquam in vitae porro soluta quia ullam eum est rerum necessitatibus quod.</p>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-around ">
+                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-primary">More</button>
+                    <button type="button" class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>
+            <div class="card mb-3 col-xl-3 p-0 text-center ">
+                <div class="card-header bg-dark" style="color: white;">Title</div>
+                <div class="card-body text-success" style="text-align: left;">
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam at voluptatibus reprehenderit consequuntur! Earum deserunt optio, voluptatibus quisquam in vitae porro soluta quia ullam eum est rerum necessitatibus quod.</p>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-around ">
+                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-primary">More</button>
+                    <button type="button" class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>  
+        </div>
+
+        <div class="mb-3 d-flex justify-content-around  row  container-fluid">
+            <div class="card mb-3 col-xl-3 p-0 text-center ">
+                <div class="card-header bg-dark" style="color: white;">Title</div>
+                <div class="card-body text-success" style="text-align: left;">
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam at voluptatibus reprehenderit consequuntur! Earum deserunt optio, voluptatibus quisquam in vitae porro soluta quia ullam eum est rerum necessitatibus quod.</p>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-around ">
+                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-primary">More</button>
+                    <button type="button" class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>
+
+            <div class="card mb-3 col-xl-3 p-0 text-center ">
+                <div class="card-header bg-dark" style="color: white;">Title</div>
+                <div class="card-body text-success" style="text-align: left;">
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam at voluptatibus reprehenderit consequuntur! Earum deserunt optio, voluptatibus quisquam in vitae porro soluta quia ullam eum est rerum necessitatibus quod.</p>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-around ">
+                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-primary">More</button>
+                    <button type="button" class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>
+            <div class="card mb-3 col-xl-3 p-0 text-center ">
+                <div class="card-header bg-dark" style="color: white;">Title</div>
+                <div class="card-body text-success" style="text-align: left;">
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam at voluptatibus reprehenderit consequuntur! Earum deserunt optio, voluptatibus quisquam in vitae porro soluta quia ullam eum est rerum necessitatibus quod.</p>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-around ">
+                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-primary">More</button>
+                    <button type="button" class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>  
+        </div>
+
+        <div class="mb-3 d-flex justify-content-around  row  container-fluid">
+            <div class="card mb-3 col-xl-3 p-0 text-center ">
+                <div class="card-header bg-dark" style="color: white;">Title</div>
+                <div class="card-body text-success" style="text-align: left;">
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam at voluptatibus reprehenderit consequuntur! Earum deserunt optio, voluptatibus quisquam in vitae porro soluta quia ullam eum est rerum necessitatibus quod.</p>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-around ">
+                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-primary">More</button>
+                    <button type="button" class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>
+
+            <div class="card mb-3 col-xl-3 p-0 text-center ">
+                <div class="card-header bg-dark" style="color: white;">Title</div>
+                <div class="card-body text-success" style="text-align: left;">
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam at voluptatibus reprehenderit consequuntur! Earum deserunt optio, voluptatibus quisquam in vitae porro soluta quia ullam eum est rerum necessitatibus quod.</p>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-around ">
+                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-primary">More</button>
+                    <button type="button" class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div>
+            <div class="card mb-3 col-xl-3 p-0 text-center ">
+                <div class="card-header bg-dark" style="color: white;">Title</div>
+                <div class="card-body text-success" style="text-align: left;">
+                  <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed veniam at voluptatibus reprehenderit consequuntur! Earum deserunt optio, voluptatibus quisquam in vitae porro soluta quia ullam eum est rerum necessitatibus quod.</p>
+                </div>
+                <div class="card-footer bg-light d-flex justify-content-around ">
+                    <button type="button" class="btn btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-primary">More</button>
+                    <button type="button" class="btn btn-outline-danger">Delete</button>
+                </div>
+            </div> 
+            <div class="d-flex justify-content-around mt-4">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> 
+        </div>
+    </main>
+    <footer>
+        <div class="text-center bg-light pt-4 pb-2">
+            <button type="button" style="font-size: 13px;" class="p-0 btn btn-primary">#HTML</button>
+            <button type="button" style="font-size: 13px;" class="p-0 btn btn-secondary">#CSS</button>
+            <button type="button" style="font-size: 13px;" class="p-0 btn btn-success">#BootsTrap</button>
+            <button type="button" style="font-size: 13px;" class="p-0 btn btn-danger">#GitHub</button>
+            <button type="button" style="font-size: 13px;" class="p-0 btn btn-warning">#JavaScript</button>
+            <button type="button" style="font-size: 13px;" class="p-0 btn btn-info">#React</button>
+            <button type="button" style="font-size: 13px;" class="p-0 btn btn-light">#Java</button>
+            <button type="button" style="font-size: 13px;" class="p-0 btn btn-dark">#Python</button>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</body>
+</html>
